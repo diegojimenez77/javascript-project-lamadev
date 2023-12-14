@@ -14,7 +14,7 @@ for (let i = 0; i < length; i++){
 }
 
 const allButtons = document.querySelectorAll('.button');
-allButtons[0].style.backgroundColor = 'white';
+allButtons[0].style.backgroundColor = 'black';
 
 const resetBg = () => {
     allButtons.forEach((button) => {
@@ -27,7 +27,7 @@ allButtons.forEach((button, i) => {
         resetBg();
         slider.style.transform = `translateX(-${i * 500}px)`;
         slideNumber = i + 1;
-        button.style.backgroundColor = 'white';
+        button.style.backgroundColor = 'black';
         console.log(slideNumber);
     })
 });
@@ -54,7 +54,7 @@ const getLastSlide = () => {
 
 const changeColor = () => {
     resetBg()
-    allButtons[slideNumber-1].style.backgroundColor = 'white';
+    allButtons[slideNumber-1].style.backgroundColor = 'black';
 }
 
 right.addEventListener("click",() => {

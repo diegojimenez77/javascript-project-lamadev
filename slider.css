@@ -21,6 +21,7 @@ body{
 .arrow{
     height: 150px;
     cursor:pointer;
+    padding: 10px;
 }
 
 .arrow:hover{
@@ -32,6 +33,7 @@ body{
     width: 490px;
     height: 700px;
     overflow: hidden;
+    border-radius: 50px;
 }
 
 .slider{
@@ -54,6 +56,6 @@ body{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid black;
     cursor: pointer;
 }
